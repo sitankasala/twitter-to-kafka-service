@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.microservices.demo</groupId>
-    <artifactId>microservices-demo</artifactId>
+    <artifactId>twitter-to-kafka-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>demo</name>
     <description>Twitter-To-Kafka-Service</description>
@@ -51,6 +51,13 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.twitter4j/twitter4j-stream -->
+        <dependency>
+            <groupId>org.twitter4j</groupId>
+            <artifactId>twitter4j-stream</artifactId>
+            <version>4.0.7</version>
+        </dependency>
+
     </dependencies>
 
     <build>

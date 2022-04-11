@@ -1,4 +1,4 @@
-package com.microservices.demo;
+package com.microservices.twitter.to.kafka;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
